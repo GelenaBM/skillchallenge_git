@@ -22,6 +22,10 @@ To https://github.com/GelenaBM/skillchallenge_git.git
 branch 'main' set up to track 'origin/main'.
 
 Georgina@Georgina MINGW64 /c/git/skillchallenge_git (main)
+$  git config --global user.email "gelenabm@gmail.com"
+  git config --global user.name "Gelena"
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (main)
 $ echo "# Skill challenge GIT" >> desafio
 
 Georgina@Georgina MINGW64 /c/git/skillchallenge_git (main)
@@ -48,3 +52,70 @@ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/GelenaBM/skillchallenge_git.git
    d029398..ce40e57  main -> main
 branch 'main' set up to track 'origin/main'.
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   desafio
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 929 bytes | 929.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/GelenaBM/skillchallenge_git.git
+   ce40e57..8840db2  main -> main
+branch 'main' set up to track 'origin/main'.
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+#Segunda modificacion
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (main)
+$ git commit desafio -m "agrega comandos para inicializar el repositorio"
+warning: in the working copy of 'desafio', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'desafio', LF will be replaced by CRLF the next time Git touches it
+[main 8840db2] agrega comandos para inicializar el repositorio
+ 1 file changed, 49 insertions(+)
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (main)
+$ $ git push -u origin main
+bash: $: command not found
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 929 bytes | 929.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/GelenaBM/skillchallenge_git.git
+   ce40e57..8840db2  main -> main
+branch 'main' set up to track 'origin/main'.
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (main)
+
