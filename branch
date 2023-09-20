@@ -108,3 +108,81 @@ To https://github.com/GelenaBM/skillchallenge_git.git
    808fe20..a23b3bd  feature -> feature
 branch 'feature' set up to track 'origin/feature'.
 
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (feature)
+$ git push -u origin feature
+Everything up-to-date
+branch 'feature' set up to track 'origin/feature'.
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (feature)
+$ git push -u origin feature
+Everything up-to-date
+branch 'feature' set up to track 'origin/feature'.
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (feature)
+$ git commit branch -m "agrega más comandosramificación y fusión"
+warning: in the working copy of 'branch', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'branch', LF will be replaced by CRLF the next time Git touches it
+[feature f45e59c] agrega más comandosramificación y fusión
+ 1 file changed, 44 insertions(+)
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (feature)
+$ git push -u origin feature
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 854 bytes | 854.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/GelenaBM/skillchallenge_git.git
+   a23b3bd..f45e59c  feature -> feature
+branch 'feature' set up to track 'origin/feature'.
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (feature)
+$ git checkout main
+Switched to branch 'main'
+M       desafio
+Your branch is up to date with 'origin/main'.
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (main)
+$ git branch
+  feature
+* main
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (main)
+$ git checkout feature
+Switched to branch 'feature'
+M       desafio
+Your branch is up to date with 'origin/feature'.
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (feature)
+$ git checkout main
+Switched to branch 'main'
+M       desafio
+Your branch is up to date with 'origin/main'.
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (main)
+$ git merge feature
+Updating 808fe20..f45e59c
+Fast-forward
+ branch | 110 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 110 insertions(+)
+ create mode 100644 branch
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (main)
+$ git push -u origin
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/GelenaBM/skillchallenge_git.git
+   808fe20..f45e59c  main -> main
+branch 'main' set up to track 'origin/main'.
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (main)
+$ git fetch
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (main)
+$ git pull
+Already up to date.
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (main)
+$ git merge
+Already up to date.
