@@ -1,0 +1,66 @@
+# Feature
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (main)
+$ git branch "feature"
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (main)
+$ git branch
+  feature
+* main
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (main)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (main)
+$ git checkout feature
+Switched to branch 'feature'
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (feature)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (feature)
+$ git push -u feature main
+fatal: 'feature' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (feature)
+$ git push -u origin feature
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature' on GitHub by visiting:
+remote:      https://github.com/GelenaBM/skillchallenge_git/pull/new/feature
+remote:
+To https://github.com/GelenaBM/skillchallenge_git.git
+ * [new branch]      feature -> feature
+branch 'feature' set up to track 'origin/feature'.
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (feature)
+$ git status
+On branch feature
+Your branch is up to date with 'origin/feature'.
+
+nothing to commit, working tree clean
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (feature)
+$ echo "# Feature" > branch
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (feature)
+$ git status
+On branch feature
+Your branch is up to date with 'origin/feature'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        branch
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Georgina@Georgina MINGW64 /c/git/skillchallenge_git (feature)
+$ git add branch
+warning: in the working copy of 'branch', LF will be replaced by CRLF the next time Git touches it
